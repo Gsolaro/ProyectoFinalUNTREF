@@ -1,0 +1,37 @@
+[
+{
+    "id": 0,
+    "name": "Super Picada",
+    "description": "Una picada grande para compartir con amigos",
+    "ingredients": "Jamón, cuatro variedades de queso, aceitunas, milanesa de lomo, lomo de cerdo, ciruelas secas, leberbursth, ajíes y morrón asado",
+    "image": "./../style/images/superpicada.jpeg",
+    "price": "$12.000"
+},
+
+{
+    "id": 1,
+    "name": "Picada Mega",
+    "description": "Una picada grande para compartir con la familia",
+    "ingredients": "Jamón, dos variedades de queso, aceitunas, milanesa de pollo, mortadela, salchichas, leberbursth, maní y papas fritas",
+    "image": "./../style/images/picadamega.jpeg",
+    "price": "$10.000"
+},
+
+{
+    "id": 2,
+    "name": "Picada canchera",
+    "description": "Una picada grande para compartir después de la cancha",
+    "ingredients": "Jamón, aceitunas, milanesa de ternera picada, salame, salchicha tipo frankfurt",
+    "image": "./../style/images/picadacanchera.jpeg",
+    "price": "$9.000"
+}, 
+
+{
+    "id": 3,
+    "name": "Picada del mar y la tiera",
+    "description": "Una picada sofisticada, ideal para una cena de a dos",
+    "ingredients": "salmón rosado feteado, mariscos, mejillones, jamón crudo, panes artesanales, rabas, variedad de dips y salsas, frutas ácidas",
+    "image": "./../style/images/picadadelmarytierra.jpeg",
+    "price": "$15.000"
+}
+]

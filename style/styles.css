@@ -1,0 +1,174 @@
+:root {
+    background: var(--colorbody);
+    color: var(--colorLetras);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    position: relative;
+    background-color: var(--colorBody);
+    height: 100%;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    width: 90%;
+    flex-direction: column;
+    background-color: var(--colorFondo);
+    color: var(--colorLetras);
+    height: 100%;
+    padding-top: 12px;
+    border: 1px solid rgb(33, 40, 59);
+    border-radius: 5px;
+}
+
+/*Aquí el código del switch para el modo oscuro*/
+.switch__container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    display: none;
+}
+
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #181717;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+input:checked+.slider {
+    background-color: #e2ca7a;
+}
+
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/*FIN DEL SWITCH*/
+
+.getButton {
+    border: 1px solid #181717;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0;
+    background-color: rgb(93, 93, 117);
+    color: aliceblue;
+
+}
+
+.getButton:hover {
+    cursor: pointer;
+}
+
+.productsTitle {
+    font-style: italic;
+    margin-top: 35px;
+}
+
+td {
+    padding: 12px;
+}
+
+.aditionalTitle {
+    display: flex;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.modal {
+    display: flex;
+    border: solid 1px rgb(113, 123, 150);
+    position: relative;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 12px auto;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.infoText {
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.infojpg {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 12px auto;
+}
+
+.infoPrice {
+    display: flex;
+    font-size: 2rem;
+    color: orangered;
+    align-self: flex-end;
+    justify-content: right;
+    margin-right: 35px;
+}
+
+button {
+    border: 1px solid #181717;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0;
+    background-color: rgb(93, 93, 117);
+    color: aliceblue;
+}

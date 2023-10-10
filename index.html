@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="./style/colors/light-mode.css" id="theme-stylesheet">
+
+    <title>TRABAJO FINAL UNTREF</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>La Tabla Loca</h1>
+            <h3>Bienvenido a nuestro web site</h3>
+        </header>
+        <nav>
+            <div class="switch__container">
+                <p>Modo Claro</p>
+                <label class="switch" for="theme-toggle">
+                    <input type="checkbox" id="theme-toggle">
+                    <div class="slider round"></div>
+                </label>
+                <p>Modo Oscuro</p>
+            </div>
+            <h4 class= "getButton" id="getJson">Click para visualizar los productos disponibles</h4>
+
+
+        </nav>
+
+        <article>
+            <section>
+                <div>
+                    <h2 class="productsTitle">Productos destacados</h2>
+                    <div id="contenedorTabla">
+                        <table id="tableTr">
+                            
+                        </table>
+                    </div>
+
+                    <div class= "modal" id="infoAdicional" style="display: none;">
+                        <h2 class="aditionalTitle" id="infoTitulo"></h2>
+                        <div class="infoText" id="infoTexto"></div>
+                        <img class= "infojpg" id="infoImagen" src="" alt="Información adicional">
+                        <div class= "infoPrice" id="infoPrecio"></div>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <footer>
+            <h3>Gracias por visitar nuestro sitio</h3>
+        </footer>
+
+
+       
+        <script src="./js/main.js"></script>
+    </main>
+</body>
+
+
+</html>
